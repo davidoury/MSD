@@ -1,0 +1,39 @@
+---
+title: "Million Song Dataset"
+author: "David Oury"
+date: "February 1 2016"
+output: ioslides_presentation
+---
+
+## Introduction
+
+The [intro page](http://labrosa.ee.columbia.edu/millionsong/) 
+states that the separate datasets (below) are included in the MSD download. 
+We can assume that they have links to or use IDs of, the
+songs in the main dataset.
+
+-  SecondHandSongs dataset -> cover songs
+-  musiXmatch dataset -> lyrics
+-  Last.fm dataset -> song-level tags and similarity
+-  Taste Profile subset -> user data
+-  thisismyjam-to-MSD mapping -> more user data
+-  tagtraum genre annotations -> genre labels
+-  Top MAGD dataset -> more genre labels
+    
+## Structure of the Million Song Subset
+
+- Three pieces: MusicBrainz, metadata and analysis
+
+- Metadata: 37 _artist terms_ (labels/tags/words) with frequency and weight
+- Songs: analysis_sample_rate, audio_md5, danceability, duration, end_of_fade_in, energy, idx_bars_confidence, idx_bars_start, idx_beats_confidence, idx_beats_start, idx_sections_confidence, idx_sections_start, idx_segments_confidence, idx_segments_loudness_max, idx_segments_loudness_max_time, idx_segments_loudness_start, idx_segments_pitches, idx_segments_start, idx_segments_timbre, idx_tatums_confidence, idx_tatums_start, key, key_confidence, loudness, mode, mode_confidence, start_of_fade_out, tempo, time_signature, time_signature_confidence, track_id
+    
+## MORE
+    
+    - [Getting the dataset](http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset)
+    - [Getting the subset](http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset#subset) (10,000 songs)
+
+- Python notebook: `Million Song Subset.ipynb`
+- [THE MILLION SONG DATASET](https://www.fbi.h-da.de/fileadmin/personal/i.schestag/Allgemein/BertEWL11-msd.pdf) by Bertin-Mahieux, Ellis, Whitman, Lamere
+
+
+## Details
