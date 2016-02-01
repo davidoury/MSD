@@ -16,7 +16,7 @@ Dataset - http://labrosa.ee.columbia.edu/millionsong/
 - Provides Echo Nest identifiers
 
 - Collaborative project between The Echo Nest and LabROSA 
-- Supported in part by the NSF.
+- Supported in part by the NSF
 
 ## Million Song Dataset
 
