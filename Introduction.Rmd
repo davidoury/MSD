@@ -5,11 +5,24 @@ date: "February 1 2016"
 output: ioslides_presentation
 ---
 
-## Introduction
+## Million Song Dataset
 
-The [intro page](http://labrosa.ee.columbia.edu/millionsong/) 
-states that the separate datasets (below) are included in the MSD download. 
-We can assume that they have links to or use IDs of, the
+[THE MILLION SONG DATASET](https://www.fbi.h-da.de/fileadmin/personal/i.schestag/Allgemein/BertEWL11-msd.pdf) (PDF) by Bertin-Mahieux, Ellis, Whitman, Lamere 
+describes the creation process, content and potential uses of the dataset. 
+
+Dataset - http://labrosa.ee.columbia.edu/millionsong/ 
+
+- Contains audio and metadata for 1M popular music tracks 
+- Provides Echo Nest identifiers
+
+- Collaborative project between The Echo Nest and LabROSA 
+- Supported in part by the NSF.
+
+## Million Song Dataset
+
+
+Includes additional datasets, listed below.
+We can assume that they have links to, or use IDs of, the
 songs in the main dataset.
 
 -  SecondHandSongs dataset -> cover songs
@@ -22,18 +35,7 @@ songs in the main dataset.
     
 ## Structure of the Million Song Subset
 
-- Three pieces: MusicBrainz, metadata and analysis
+This dataset has three pieces: metadata and analysis and MusicBrainz.
 
-- Metadata: 37 _artist terms_ (labels/tags/words) with frequency and weight
-- Songs: analysis_sample_rate, audio_md5, danceability, duration, end_of_fade_in, energy, idx_bars_confidence, idx_bars_start, idx_beats_confidence, idx_beats_start, idx_sections_confidence, idx_sections_start, idx_segments_confidence, idx_segments_loudness_max, idx_segments_loudness_max_time, idx_segments_loudness_start, idx_segments_pitches, idx_segments_start, idx_segments_timbre, idx_tatums_confidence, idx_tatums_start, key, key_confidence, loudness, mode, mode_confidence, start_of_fade_out, tempo, time_signature, time_signature_confidence, track_id
-    
-## MORE
-    
-    - [Getting the dataset](http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset)
-    - [Getting the subset](http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset#subset) (10,000 songs)
-
-- Python notebook: `Million Song Subset.ipynb`
-- [THE MILLION SONG DATASET](https://www.fbi.h-da.de/fileadmin/personal/i.schestag/Allgemein/BertEWL11-msd.pdf) by Bertin-Mahieux, Ellis, Whitman, Lamere
-
-
-## Details
+See notebook `Million Song Subset.ipynb`
+for details. 
